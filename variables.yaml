@@ -1,0 +1,6 @@
+environment:
+  - dev 
+  - production
+cluster:
+  - name-of-a-cluster1
+  - name-of-a-cluster2
