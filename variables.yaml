@@ -1,8 +1,10 @@
-
-default: {}
-environment: {}
-  - dev: {}
-  - production: {}
+default: 
+  bob: uncle
+environment: 
+  dev: 
+    bob: friend
+  production: 
+    bob: nemesis
 cluster:
-  - name-of-a-cluster1: {}
-  - name-of-a-cluster2: {}
+  dev-eks-cluster5: 
+    bob: accountant
