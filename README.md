@@ -23,4 +23,6 @@ Goal: wire a github repo to a set of eks clusters for the baseline cluster confi
 
 ## Secrets rendering
 - same 3-level approach: default, environment->env_name, cluster->cluster_name
-
+- secrets have an "arn" and "name", and something to tell us what to pull out of the secret. 
+	- fetched from arn
+	- stored in secrets under scope (default|environment|cluster) and name
