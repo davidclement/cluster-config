@@ -22,4 +22,5 @@ Goal: wire a github repo to a set of eks clusters for the baseline cluster confi
 - next, if '<CLUSTER_NAME>' in config_vars['cluster'], UPDATE vars w/ config_vars['cluster']['<CLUSTER_NAME>']
 
 ## Secrets rendering
+- same 3-level approach: default, environment->env_name, cluster->cluster_name
 
