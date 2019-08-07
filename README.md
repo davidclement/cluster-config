@@ -27,3 +27,4 @@ Goal: wire a github repo to a set of eks clusters for the baseline cluster confi
 	- fetched from arn
 	- stored in secrets under scope (default|environment|cluster) and name
 	- will need to experiment w/ fetching secrets to figure out what else we need to store in the yaml about fetching them
+- next
