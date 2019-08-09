@@ -4,6 +4,7 @@ Goal: wire a github repo to a set of eks clusters for the baseline cluster confi
 
 ## TODO
 - currently testing github webhook --> yaml rendering --> would be kubectl commands w/out testing kubectl
+- move to an account where I can build an EKS test cluster and actually apply the yaml
 
 ## Components
 - API Gateway POST receiver for webhook
