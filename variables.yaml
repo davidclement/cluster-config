@@ -4,7 +4,11 @@ environment:
   dev: 
     bob: friend
   production: 
+    ignore_manifests:
+    - not_for_production.yaml
     bob: nemesis
 cluster:
-  dev-eks-cluster5: 
+  dev-eks-cluster2: 
+    ignore_manifests:  # manifests to skip for this cluster
+    - not_for_dev_eks_cluster2.yaml 
     bob: accountant
