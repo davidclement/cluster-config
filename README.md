@@ -13,6 +13,9 @@ Goal: wire a github repo to a set of eks clusters for the baseline cluster confi
 	- evnironment/<environment name> dirs: for environment specific manifest (versions) - if a manifest by same name already exists from default, replaced w/ this one
 	- cluster/<cluster name> dirs: for cluster-specific manifest (versions) - if a manifest by same name already exists from default or environment, replaced w/ this one
 
+## Tests
+- added tests for the lambda function 
+
 ## Variable interpolation 
 - start the variable interpolation w/ a cluster name
 - load variables.yaml into a dict(), say, config_vars
